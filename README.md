@@ -7,6 +7,22 @@ It is a website consisting of various small projects which can be helpful in dai
 -   Scientific Calculator
 -   To-do list
 -   Converter
+
+    -   Length
+    -   Currency
+    -   Volume
+    -   Weight and mass
+    -   Temperature
+    -   Energy
+    -   Area
+    -   Speed
+    -   Time
+    -   Power
+    -   Data
+    -   Pressure
+    -   Angle
+    -   Number System
+
 -   Clock (Analogue & Digital)
 -   Weather App (simple)
 -   Language Translator
