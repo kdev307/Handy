@@ -1,0 +1,68 @@
+.dig-clock-box {
+    margin: 1rem 0.8rem;
+    padding: 2rem 0;
+    color: #17d4fe;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    margin: 2.4rem;
+    margin-top: 0;
+    gap: 5.6rem;
+    padding-bottom: 1.6rem;
+    color: #cacaca;
+    opacity: 0.8;
+}
+
+.date-digital,
+.time {
+    /* border: 0.6rem solid #f00;
+    border-radius: 2rem; */
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 2.4rem;
+    margin-bottom: 0;
+    padding: 1.6rem;
+    font-family: "Orbitron", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.sep {
+    /* box-shadow: none; */
+    opacity: 0.8;
+}
+
+.time {
+    margin-top: 0;
+    font-size: 3.6rem;
+    gap: 2.4rem;
+}
+
+.time-period {
+    padding-top: 1.6rem;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.day-digital {
+    padding-bottom: 2.4rem;
+    text-align: center;
+    font-family: "Orbitron", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3.2rem;
+}

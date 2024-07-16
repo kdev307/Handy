@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins";
+    /* Does NOT work on Safari */
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    font-size: 5.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1.6rem;
+    -webkit-text-stroke: 0.16rem #fff;
+    color: #206bff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    /* -webkit-background-clip: text;
+    background-clip: text; */
+    /* background-image: linear-gradient(45deg, #0055ff, #206bff, #fff); */
+}
+
+footer {
+    background-color: #000;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.credit {
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 1.6rem 0;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: text-gradient 5s ease-in-out infinite;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.326);
+}
+
+@keyframes text-gradient {
+    0% {
+        background-image: linear-gradient(45deg, #ff5733, #33ff57, #33ffff, #ff33f5, #ff0);
+    }
+    20% {
+        background-image: linear-gradient(45deg, #33ff57, #33ffff, #ff33f5, #ff0, #ff5733);
+    }
+    40% {
+        background-image: linear-gradient(45deg, #33ffff, #ff33f5, #ff0, #ff5733, #33ff57);
+    }
+    60% {
+        background-image: linear-gradient(45deg, #ff33f5, #ff0, #ff5733, #33ff57, #33ffff);
+    }
+    80% {
+        background-image: linear-gradient(45deg, #ff0, #ff5733, #33ff57, #33ffff #ff33f5);
+    }
+    100% {
+        background-image: linear-gradient(45deg, #ff5733, #33ff57, #33ffff, #ff33f5, #ff0);
+    }
+}

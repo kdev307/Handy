@@ -4,30 +4,30 @@ It is a website consisting of various small projects which can be helpful in dai
 
 ## Common Tools
 
--   Scientific Calculator
--   To-do list
+-   BMI Calculator
+-   Calendar
+-   Clock (Analogue & Digital)
 -   Converter
 
-    -   Length
+    -   Angle
+    -   Area
     -   Currency
+    -   Data
+    -   Energy
+    -   Length
+    -   Number System
+    -   Power
+    -   Pressure
+    -   Speed
+    -   Temperature
+    -   Time
     -   Volume
     -   Weight and mass
-    -   Temperature
-    -   Energy
-    -   Area
-    -   Speed
-    -   Time
-    -   Power
-    -   Data
-    -   Pressure
-    -   Angle
-    -   Number System
 
--   Clock (Analogue & Digital)
--   Weather App (simple)
 -   Language Translator
--   Quote Generator
--   BMI Calculator
--   Stopwatch
 -   Notes
--   Calendar
+-   Quote Generator
+-   Scientific Calculator
+-   Stopwatch
+-   To-do list
+-   Weather App (simple)

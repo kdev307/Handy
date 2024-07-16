@@ -1,0 +1,63 @@
+body {
+    background: #ddd;
+}
+
+.section-handy-tools {
+    margin-top: 6.4rem;
+    padding: 3.6rem;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 2.4rem;
+    font-family: cursive;
+    column-gap: 1.6rem;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.app-icons {
+    transition: all 0.5s ease-in-out;
+}
+
+.app-icons:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.app-name {
+    color: #000;
+    /* color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #000, #999); */
+    transition: all 0.5s ease-in-out;
+}
+
+.app-name:hover {
+    transform: scale(1.1);
+    /* background-image: linear-gradient(45deg, #999, #000); */
+    transition: all 0.5s ease-in-out;
+}
+
+img {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+/* .app-name {
+    margin-top: 1.6rem;
+    padding: 0.8rem;
+} */

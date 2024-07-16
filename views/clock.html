@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../public/stylesheets/common.css" />
+        <link rel="stylesheet" href="../public/stylesheets/clock/style.css" />
+        <link rel="stylesheet" href="../public/stylesheets/clock/analogue.css" />
+        <link rel="stylesheet" href="../public/stylesheets/clock/digital.css" />
+
+        <title>ClockD</title>
+    </head>
+    <body>
+        <header class="head">
+            <h1>ClockD</h1>
+        </header>
+        <main>
+            <section class="clock-navbar">
+                <div class="slider"></div>
+                <div class="clock-nav">
+                    <button class="btn analogue-btn" id="analogue-btn">Analogue</button>
+                    <button class="btn digital-btn" id="digital-btn">Digital</button>
+                </div>
+            </section>
+            <section class="clocks">
+                <div class="clock-block">
+                    <section class="clock" id="analogue">
+                        <!-- ANALOGUE CLOCK -->
+                        <div class="analgoue-clock-box">
+                            <div class="analgoue-clock">
+                                <div id="clock-border">
+                                    <div class="hand" id="seconds"></div>
+                                    <div class="hand" id="minutes"></div>
+                                    <div class="hand" id="hours"></div>
+                                    <div class="dot"></div>
+                                    <div class="numbers">
+                                        <div class="number">
+                                            <p>12</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>1</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>2</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>3</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>4</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>5</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>6</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>7</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>8</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>9</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>10</p>
+                                        </div>
+                                        <div class="number">
+                                            <p>11</p>
+                                        </div>
+                                        <div class="period-analogue"></div>
+                                        <div class="date-analogue">
+                                            <div class="date-dd"></div>
+                                            <div>/</div>
+                                            <div class="date-mm"></div>
+                                            <div>/</div>
+                                            <div class="date-yy"></div>
+                                        </div>
+                                        <div class="day-analogue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="clock" id="digital">
+                        <!-- DIGITAL CLOCK -->
+                        <div class="dig-clock-box">
+                            <div class="time-info">
+                                <div class="time-period"></div>
+                                <div class="time">
+                                    <div class="time-hh"></div>
+                                    <div class="sep">:</div>
+                                    <div class="time-mm"></div>
+                                    <div class="sep">:</div>
+                                    <div class="time-ss"></div>
+                                </div>
+                                <div class="info">
+                                    <div class="info-child">Hours</div>
+                                    <div class="info-child">Minutes</div>
+                                    <div class="info-child">Seconds</div>
+                                </div>
+                            </div>
+                            <div class="date-info">
+                                <div class="date-digital">
+                                    <div class="date-dd"></div>
+                                    <div class="sep">/</div>
+                                    <div class="date-mm"></div>
+                                    <div class="sep">/</div>
+                                    <div class="date-yy"></div>
+                                </div>
+                                <div class="info">
+                                    <div class="info-child">Date</div>
+                                    <div class="info-child">Month</div>
+                                    <div class="info-child">Year</div>
+                                </div>
+                            </div>
+                            <div class="day-info">
+                                <div class="day-digital"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="credit">Crafted by KD</div>
+        </footer>
+    </body>
+    <script src="../javascripts/clock/script.js"></script>
+    <script src="../javascripts/clock/analogue.js"></script>
+    <script src="../javascripts/clock/digital.js"></script>
+</html>

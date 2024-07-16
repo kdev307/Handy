@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins";
+    /* Does NOT work on Safari */
+    /* scroll-behavior: smooth; */
+}
+
+/* body {
+    background-image: linear-gradient(to bottom, #fff, #ccc, #aaa, #888, #666, #444, #222, #000);
+} */
+
+body {
+    background-image: linear-gradient(to bottom, #fff, #ccc, #aaa, #888, #666, #444, #222, #000);
+    min-height: 100vh; /* Ensure body takes up at least the full viewport height */
+    position: relative; /* Position relative for footer positioning */
+}
+
+.to-do-container {
+    margin-bottom: 19.2rem;
+    padding-bottom: 4.8rem;
+}
+
+#input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.2rem;
+    padding: 2rem;
+}
+
+input {
+    margin: 0;
+    border: none;
+    width: 30%;
+    padding: 1.6rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+    border-radius: 2rem 0 0 2rem;
+    text-align: center;
+    box-shadow: 4px 4px 2px #a09191;
+}
+
+.add-btn {
+    padding: 1.6rem;
+    background-color: #aaa;
+    border: none;
+    border-radius: 0 2rem 2rem 0;
+    box-shadow: 4px 4px 2px #00000085;
+    color: black;
+    width: 10%;
+    font-size: 3.2rem;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.add-btn:active {
+    box-shadow: 0px 2px 0px #00000085;
+    transform: translateY(4px);
+}
+
+#display-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #f0f8ff;
+    color: black;
+    font-size: 20px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(160, 145, 145);
+}
+
+ul li {
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    width: auto;
+    padding: 12px 18px 12px 18px;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.2s;
+}
+
+ul li:nth-last-child(odd) {
+    background-color: snow;
+}
+
+ul li:hover {
+    background-color: #fff6ea;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    color: #04ab04e7;
+}
+
+ul li.checked::before {
+    content: "";
+    float: left;
+    margin: 1px 14px 1px 14px;
+    border-color: #04ab04e7;
+    border-style: solid;
+    border-width: 0px 4px 4px 0px;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+    transition: 0.5s;
+}
+
+.close {
+    padding: 1px 8px 1px 8px;
+    top: 0;
+    right: 0;
+    color: #f00;
+    float: right;
+}
