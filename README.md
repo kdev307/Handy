@@ -1,6 +1,6 @@
 # Handy
 
-It is a website consisting of various small projects which can be helpful in daily life of an individual. These small projects are basically the most commonly used tool by us in the mobile phones.
+The website offers a range of practical tools intended to enhance the daily lives of individuals. These tools are essential utilities commonly found on mobile phones, designed to provide convenience and utility in everyday tasks.
 
 ## Common Tools
 
