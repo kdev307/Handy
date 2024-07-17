@@ -23,7 +23,8 @@ async function findWeather(city) {
 }
 
 function setBodyBackground(weatherDescription) {
-    const body = document.body;
+    // const body = document.body;
+    const body = document.querySelector(".weather-info");
     let bgColor = "#FFFFFF";
 
     if (weatherDescription.includes("clear") || weatherDescription.includes("sun")) {

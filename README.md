@@ -30,4 +30,4 @@ The website offers a range of practical tools intended to enhance the daily live
 -   Scientific Calculator
 -   Stopwatch
 -   To-do list
--   Weather App (simple)
+-   Weather App

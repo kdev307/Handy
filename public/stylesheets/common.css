@@ -14,6 +14,17 @@ html {
     /* scroll-behavior: smooth; */
 }
 
+body {
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.35),
+            rgba(115, 115, 115, 0.35)
+        ),
+        url(../images/bg4b.png);
+    /* background-repeat: repeat; */
+    background-size: cover;
+}
+
 a {
     text-decoration: none;
 }
@@ -27,8 +38,9 @@ h1 {
     font-weight: 900;
     text-align: center;
     font-family: "Caveat", cursive;
+    /* font-family: "Patrick Hand SC", cursive; */
     margin: 1.6rem;
-    -webkit-text-stroke: 0.25rem #b8b8b8;
+    -webkit-text-stroke: 0.25rem #fff;
     color: #000;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.29);
     -webkit-background-clip: text;
@@ -39,6 +51,7 @@ h1 {
 footer {
     background-color: #000;
     /* position: fixed; */
+    margin-top: 1.2rem;
     bottom: 0;
     width: 100%;
     text-align: center;
