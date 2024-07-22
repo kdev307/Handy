@@ -28,6 +28,8 @@ html {
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    background-color: #fff;
+    border-radius: 50rem;
 }
 
 .btn {
